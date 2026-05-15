@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "name": "programming",
+      "priority": "high",
+      "deadline": "2026-05-16T02:26",
+      "reminder": "2026-05-23T02:26",
+      "category": "Labs",
+      "completed": false,
+      "createdAt": "2026-05-14T23:28:06.575Z",
+      "id": "yL1nHrCZldY"
+    },
+    {
+      "name": "web design",
+      "priority": "medium",
+      "deadline": "2026-05-15T11:37",
+      "reminder": "2026-05-15T00:44",
+      "category": "Assignments",
+      "completed": true,
+      "createdAt": "2026-05-15T03:38:16.727Z",
+      "id": "1o_Eb-Bt7Ck"
+    }
+  ],
+  "categories": [
+    {
+      "id": "quizzes",
+      "name": "Quizzes"
+    },
+    {
+      "id": "assignments",
+      "name": "Assignments"
+    }
+  ],
+  "alerts": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
