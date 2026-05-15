@@ -14,7 +14,11 @@
     "lucide-react": "^1.16.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
+<<<<<<< HEAD
     "react-router-dom": "^7.15.1",
+=======
+    "react-router-dom": "^6.30.3",
+>>>>>>> bd382d6 (Fixed files)
     "recharts": "^3.8.1",
     "tailwindcss": "^4.3.0"
   },
