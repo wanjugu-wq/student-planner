@@ -1,9 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
-import "./App.css";
+import React from "react";
+import Dashboard from "./pages/Dashboard";
 
-export default function App() {
-  return <div></div>;
+function App() {
+  return (
+    <div>
+      <header style={{ padding: "10px", background: "#333333", color: "white" }}>
+        Student Planner System
+      </header>
+
+      <Dashboard />
+    </div>
+  );
 }
+
+export default App;
