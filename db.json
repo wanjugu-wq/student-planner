@@ -1,22 +1,6 @@
 {
-  "tasks": [
-    {
-      "name": "coding",
-      "priority": "high",
-      "deadline": "2026-05-15T00:17",
-      "reminder": "2026-05-15T11:23",
-      "category": "programming",
-      "completed": false,
-      "createdAt": "2026-05-15T08:17:57.629Z",
-      "id": "ryNxjpCRghE"
-    }
-  ],
-  "categories": [
-    {
-      "id": "kxTaQQzzeK0",
-      "name": "programming"
-    }
-  ],
+  "tasks": [],
+  "categories": [],
   "alerts": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
