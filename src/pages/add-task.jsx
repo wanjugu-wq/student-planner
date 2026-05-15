@@ -51,13 +51,15 @@ function Field({ label, error, children }) {
 
 // Main Component
 export default function AddTask({ onTaskAdded }) {
-  //  STATES
   const [task, setTask] = useState("");
   const [priority, setPriority] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
   const [deadline, setDeadline] = useState("");
   const [reminder, setReminder] = useState("");
+
+  //  STATE
   const [categories, setCategories] = useState(DEFAULT_CATEGORIES);
+
   const [selectedCategory, setSelectedCategory] = useState("");
   const [newCategory, setNewCategory] = useState("");
   const [isAdding, setIsAdding] = useState(false);
