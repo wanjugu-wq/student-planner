@@ -80,7 +80,7 @@ export default function CompletedTasks({ tasks, loading, onToggle }) {
                       text-sm sm:text-[15px]
                       font-medium text-gray-400
                       line-through
-                      wrap-break-word
+                      wrap-break-words
                     "
                   >
                     {task.name}
@@ -90,7 +90,7 @@ export default function CompletedTasks({ tasks, loading, onToggle }) {
                     className="
                       text-xs text-gray-300
                       mt-1
-                      wrap-break-word
+                      wrap-break-words
                     "
                   >
                     {task.category}
