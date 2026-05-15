@@ -1,6 +1,5 @@
 @import 'tailwindcss';
 
-* {
-	--font-sans: 'Inter', sans-serif;
-	--font-barlow: 'Barlow', sans-serif;
+body {
+  font-family: "Barlow", serif;
 }
